@@ -947,7 +947,7 @@ angular.module('textAngularSetup', [])
       color: "#fff"
   });
   taRegisterTool('fontColor', {
-      display: "<div spectrum-colorpicker ng-model='color' on-change='!!color && action(color)' format='\"hex\"' options='options' style='padding:2 !important'></div>",
+      display: "<div spectrum-colorpicker ng-model='color' on-change='!!color && action(color)' format='\"hex\"' options='options' style='padding:2px !important'></div>",
       action: function (color) {
           var me = this;
           if (!this.$editor().wrapSelection) {
